@@ -30,7 +30,7 @@ jobs:
         run: flutter pub get
       
       - name: Build
-        run: flutter build web --base-href /samozvanec/
+        run: flutter build web --base-href /injury_short/
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
